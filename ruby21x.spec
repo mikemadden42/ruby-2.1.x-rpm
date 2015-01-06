@@ -1,4 +1,4 @@
-%define rubyver         2.1.2
+%define rubyver         2.1.5
 
 Name:           ruby
 Version:        %{rubyver}
@@ -63,6 +63,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}/*
 
 %changelog
+* Mon Jan 6 2015 Michael Madden <mikemadden42@gmail.com> - 2.1.5
+- Update for Ruby 2.1.5
+
 * Fri May  9 2014 Masahito Yoshida <masahito@axsh.net> - 2.1.2
 - Update ruby version to 2.1.2
 
